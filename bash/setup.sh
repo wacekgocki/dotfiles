@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 cp ~/.bashrc ~/.bashrc.dist
 cp bashrc_custom ~/.bashrc_custom
@@ -9,5 +9,5 @@ cp bash_aliases ~/.bash_aliases
 cp inputrc ~/.inputrc
 
 cp dircolors-solarized ~/.dircolors-solarized
-rm ~/.dircolors
+rm -f ~/.dircolors
 ln -s ~/.dircolors-solarized .dircolors
