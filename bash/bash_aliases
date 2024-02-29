@@ -1,0 +1,6 @@
+alias ll='ls -AlFv --group-directories-first'
+alias la='ls -Av --group-directories-first'
+alias l='ls -CFv --group-directories-first'
+alias mc='mc -x'
+alias va='if [ -d venv ]; then source venv/bin/activate; else source .venv/bin/activate; fi'
+alias vd='deactivate'
