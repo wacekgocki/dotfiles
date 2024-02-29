@@ -11,4 +11,4 @@ cp inputrc ~/.inputrc
 
 cp dircolors-solarized ~/.dircolors-solarized
 rm -f ~/.dircolors
-ln -s ~/.dircolors-solarized .dircolors
+ln -s ~/.dircolors-solarized ~/.dircolors
