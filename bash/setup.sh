@@ -2,8 +2,9 @@
 
 cp ~/.bashrc ~/.bashrc.dist
 cp bashrc_custom ~/.bashrc_custom
-echo -e "\nrun custom bashrc script\n" >> ~/.bashrc
-echo -e "source .bashrc_custom\n" >> ~/.bashrc
+echo -e "\n" >> ~/.bashrc
+echo -e "# run custom bashrc script\n" >> ~/.bashrc
+echo -e "source ~/.bashrc_custom\n" >> ~/.bashrc
 
 cp bash_aliases ~/.bash_aliases
 cp inputrc ~/.inputrc
